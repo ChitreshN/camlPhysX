@@ -1,0 +1,4 @@
+_build/*
+test/*
+camlphysx.opam
+dune-project
