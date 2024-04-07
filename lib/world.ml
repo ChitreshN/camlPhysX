@@ -54,4 +54,4 @@ let rec step dt world =
             {position = position;
             velocity = velocity;
             force = force;
-            mass = obj.mass}:: step dt rest
+            mass = obj.mass}:: step dt rest;;
