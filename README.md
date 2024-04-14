@@ -10,3 +10,22 @@
 1. Move objects by applying forces and based on the set physical rules of the system
 2. Detect colisions
 3. Resolve colisions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
