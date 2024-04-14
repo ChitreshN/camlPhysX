@@ -1,4 +1,5 @@
 open Object;;
+open Vectors;;
 
 type world = obj list
 
@@ -55,3 +56,5 @@ let rec step dt world =
             velocity = velocity;
             force = force;
             mass = obj.mass}:: step dt rest;;
+
+(*https://research.ncl.ac.uk/game/mastersdegree/gametechnologies/physicstutorials/*)
