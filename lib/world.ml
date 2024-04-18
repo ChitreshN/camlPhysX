@@ -45,7 +45,7 @@ let rec initGravity world =
 let rec step dt world = 
     match world with
     | [] -> []
-    | obj::rest -> 
+    | obj::rest -> (*semi implicit euler integration*)
             let force       = vectorSum obj.force @@ scalarProduct obj.mass gravity in
             let velocity    = vectorSum obj.velocity @@
                                 scalarProduct dt @@ 
